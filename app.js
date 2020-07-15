@@ -89,3 +89,31 @@ const instObject = {
     picture: 'http://instagram.com/generalassembly/...',
     shares: 99
 }
+
+function sayHello() {
+    console.log("Hello");
+}
+
+const sayHelloAgain = function() {
+    console.log("Hello again");
+
+}
+
+const sayHelloFinal = () => {
+    console.log("Hello one last time");
+}
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function printNumbers (nums) {
+    for ( let i = 0; i < nums.length; i++) {
+        let newNum= nums[i];
+        console.log(newNum);
+        if (newNum < 5) {
+            console.log("The number " +newNum+ " is less than 5");
+        } else {
+            console.log("The number " +newNum+ " is greater than 5");
+        }
+
+    }
+}
+printNumbers(numbers);
