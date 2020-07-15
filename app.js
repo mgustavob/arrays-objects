@@ -117,3 +117,13 @@ function printNumbers (nums) {
     }
 }
 printNumbers(numbers);
+
+function addNums (array) {
+    let result = 0;
+    for (let i = 0; i < array.length; i++) {
+        let num = array[i];
+        result += num;
+    }
+    return result;
+}
+console.log(addNums(numbers));
