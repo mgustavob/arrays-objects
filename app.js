@@ -46,3 +46,10 @@ var colors = ['Blue', 'Green', 'Red', 'Yellow'];
 for (var i = 0; i <colors.length; i++) {
     console.log(colors[i]);
 }
+
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford'];
+console.log(cars);
+for (let i = 0; i < cars.length ; i++) {
+    let eachCar = cars[i];
+    console.log(eachCar);
+}
