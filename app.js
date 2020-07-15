@@ -31,3 +31,12 @@ while (startNum < favNum) {
     console.log("Attempting " +startNum);
     startNum += 1;
 }
+
+// for loops
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+for (var i = 0; i < teams.length; i++) {
+    console.log(teams[i]);
+}
