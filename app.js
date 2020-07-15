@@ -53,3 +53,39 @@ for (let i = 0; i < cars.length ; i++) {
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+// objects
+// key : value
+
+const martin = {
+    fullName: 'Martin briceno',
+    age: 42,
+    myLocation: 'Boston',
+    placesTravel: ['Canada', 'IceLand', 'Costa Rica', 'Peru']
+}
+
+console.log(martin);
+console.log(martin.myLocation);
+console.log(martin.placesTravel[2]);
+
+const myReallyCoolPost = {
+    userName: '@generalassembly',
+    likes: 1200,
+    comments: ['Cool post!', 'nice', 'JS is cool', 'woah'],
+    caption: 'Day 3 of SEI',
+    picture: 'http://instagram.com/generalassembly/...',
+    shares: 12
+}
+
+console.log(myReallyCoolPost);
+myReallyCoolPost.myLocation = 'Boston';
+console.log(myReallyCoolPost);
+
+const instObject = {
+    userName: 'martinB',
+    likes: "Its over 9000!!!",
+    comments: ['Cool post!', 'nice', 'JS is coDBZl', 'woah'],
+    caption: 'My JS power level',
+    picture: 'http://instagram.com/generalassembly/...',
+    shares: 99
+}
