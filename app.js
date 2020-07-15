@@ -26,3 +26,8 @@ while (myOtherNum < numTwo) {
     console.log(myOtherNum);
     myOtherNum += 1;
 }
+var startNum = 0
+while (startNum < favNum) {
+    console.log("Attempting " +startNum);
+    startNum += 1;
+}
