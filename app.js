@@ -40,3 +40,9 @@ for (var i = 0; i < 10; i++) {
 for (var i = 0; i < teams.length; i++) {
     console.log(teams[i]);
 }
+
+var colors = ['Blue', 'Green', 'Red', 'Yellow'];
+
+for (var i = 0; i <colors.length; i++) {
+    console.log(colors[i]);
+}
